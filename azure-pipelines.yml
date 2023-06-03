@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: pool-nfonexsystems
+pool: pool_self
 
 steps:
 - task: Maven@3
