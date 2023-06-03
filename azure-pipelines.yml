@@ -8,6 +8,8 @@ trigger:
 
 pool: pool-nfonexsystems
 
+echo "##vso[task.setvariable variable=M2_HOME]/opt/maven"
+
 steps:
 - task: Maven@3
   inputs:
